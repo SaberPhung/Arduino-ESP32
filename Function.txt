@@ -1,0 +1,13 @@
+ESP32 can produce PWM 16 LED PWM controller
+channel argument takes any value from 0 to 15
+Function
+ledcSetup(channel, frequency, resolution_bits);
+ledcAttachPin(pin, channel);
+ledcWrite(channel, dutycycle);
+ledcRead(channel);
+ledcWriteTone(channel, frequency);
+ledcWriteNote(channel, note, octave);
+ledcReadFreq(channel);
+ledcDetachPin(pin);
+analogRead(pin)
+hallRead();
